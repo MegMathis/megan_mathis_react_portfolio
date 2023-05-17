@@ -19,10 +19,8 @@ const Header = (props) => {
           <a
             href="#"
             onClick={() => props.handlePageChange("AboutMe")}
-            style={
-              window.location.pathname === "/"
-                ? { borderBottom: "2px solid #E2E8F0" }
-                : {}
+            className={
+              props.page === "AboutMe" ? "border-b-2 border-#E2E8F0" : ""
             }
           >
             About Me
@@ -33,10 +31,8 @@ const Header = (props) => {
           <a
             href="#"
             onClick={() => props.handlePageChange("Portfolio")}
-            style={
-              window.location.pathname === "/portfolio"
-                ? { borderBottom: "2px solid #E2E8F0" }
-                : {}
+            className={
+              props.page === "Portfolio" ? "border-b-2 border-#E2E8F0" : ""
             }
           >
             Portfolio
@@ -47,10 +43,8 @@ const Header = (props) => {
           <a
             href="#"
             onClick={() => props.handlePageChange("Resume")}
-            style={
-              window.location.pathname === "/resume"
-                ? { borderBottom: "2px solid #E2E8F0" }
-                : {}
+            className={
+              props.page === "Resume" ? "border-b-2 border-#E2E8F0" : ""
             }
           >
             Resume
@@ -61,10 +55,8 @@ const Header = (props) => {
           <a
             href="#"
             onClick={() => props.handlePageChange("Contact")}
-            style={
-              window.location.pathname === "/contact"
-                ? { borderBottom: "2px solid #E2E8F0" }
-                : {}
+            className={
+              props.page === "Contact" ? "border-b-2 border-#E2E8F0" : ""
             }
           >
             Contact
