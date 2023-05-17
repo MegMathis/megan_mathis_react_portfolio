@@ -5,8 +5,6 @@ const Header = (props) => {
   const [menu, setMenu] = useState(false);
   const handleClick = () => setMenu(!menu);
 
-  // const styles = {};
-
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-900 text-gray-300">
       <a href="/">
