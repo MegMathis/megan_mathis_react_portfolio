@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const Header = () => {
+const Header = (props) => {
   const [menu, setMenu] = useState(false);
   const handleClick = () => setMenu(!menu);
 
-  const styles = {};
+  // const styles = {};
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-900 text-gray-300">
@@ -20,6 +20,7 @@ const Header = () => {
         <li>
           <a
             href="/"
+            onClick={() => props.handlePageChange("AboutMe")}
             style={
               window.location.pathname === "/"
                 ? { borderBottom: "2px solid #E2E8F0" }
@@ -33,6 +34,7 @@ const Header = () => {
         <li>
           <a
             href="/portfolio"
+            onClick={() => props.handlePageChange("Portfolio")}
             style={
               window.location.pathname === "/portfolio"
                 ? { borderBottom: "2px solid #E2E8F0" }
@@ -46,6 +48,7 @@ const Header = () => {
         <li>
           <a
             href="/resume"
+            onClick={() => props.handlePageChange("Resume")}
             style={
               window.location.pathname === "/resume"
                 ? { borderBottom: "2px solid #E2E8F0" }
@@ -59,6 +62,7 @@ const Header = () => {
         <li>
           <a
             href="/contact"
+            onClick={() => props.handlePageChange("Contact")}
             style={
               window.location.pathname === "/contact"
                 ? { borderBottom: "2px solid #E2E8F0" }
@@ -84,16 +88,27 @@ const Header = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="/">About Me</a>
+          <a href="/" onClick={() => props.handleClick("AboutMe")}>
+            About Me
+          </a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/resume">Resume</a>
+          <a href="/resume" onClick={() => props.handlePageChange("Resume")}>
+            Resume
+          </a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/portfolio">Portfolio</a>
+          <a
+            href="/portfolio"
+            onClick={() => props.handlePageChange("Portfolio")}
+          >
+            Portfolio
+          </a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="/contact">Contact Me</a>
+          <a href="/contact" onClick={() => props.handlePageChange("Contact")}>
+            Contact Me
+          </a>
         </li>
       </ul>
     </div>

@@ -26,30 +26,47 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+import AboutMe from "./pages/AboutMe";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 
 function App() {
   const [page, setPage] = useState("AboutMe");
 
+  // const showPage = () => {
+  //   switch (page) {
+  //     case "AboutMe":
+  //       return <AboutMe />;
+  //     case "Portfolio":
+  //       return <Portfolio />;
+  //     case "Resume":
+  //       return <Resume />;
+  //     case "Contact":
+  //       return <Contact />;
+  //   }
+  // };
+
   const showPage = () => {
-    switch (page) {
-      case "AboutMe":
-        return <AboutMe />;
-      case "Portfolio":
-        return <Portfolio />;
-      case "Resume":
-        return <Resume />;
-      case "Contact":
-        return <Contact />;
+    if (page === "AboutMe") {
+      return <AboutMe />;
+    }
+    if (page === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (page === "Resume") {
+      return <Resume />;
+    }
+    if (page === "Contact") {
+      return <Contact />;
     }
   };
 
+  const handlePageChange = (page) => setPage(page);
+
   return (
     <>
-      <Header page={page} setPage={setPage} />
+      <Header page={page} handlePageChange={handlePageChange} />
 
       {showPage()}
       <Footer />
