@@ -62,7 +62,10 @@ function App() {
     }
   };
 
-  const handlePageChange = (page) => setPage(page);
+  const handlePageChange = (page) => {
+    console.log(page);
+    setPage(page);
+  };
 
   return (
     <>
