@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# Meg's React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![license](https://img.shields.io/badge/License-MIT-ff69b4)](https://shields.io)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This application is my own personal portfolio.
 
-### `npm start`
+The portfolio inclues a header, footer, and about me page, contact page, portfolio page (showing projects and homework), and a resume page(that shows my skill and a link to my resume).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Installation](#installation)
+- [License](#license)
+- [Usage](#usage)
+- [ScreenShots](#screenshots)
+- [Video](#video)
+- [Links to Deployment](#linkstodeployment)
+- [Credits](#LinkstoDeployment)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Vist page at :
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+MIT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Visit page at: https://megmathis.github.io/megan_mathis_react_portfolio/#
 
-### `npm run eject`
+## ScreenShots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+About Me
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot.](./src/assets/about_me.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Portfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot.](./src/assets/portfolio.png)
 
-## Learn More
+Resume
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot.](./src/assets/resume.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contact
 
-### Code Splitting
+![Screenshot.](./src/assets/contact.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Video
 
-### Analyzing the Bundle Size
+n/a
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Links to Deployment
 
-### Making a Progressive Web App
+Application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+https://megmathis.github.io/megan_mathis_react_portfolio/#
 
-### Advanced Configuration
+GitHub:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+https://github.com/MegMathis/megan_mathis_react_portfolio
 
-### Deployment
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://coolors.co/
 
-### `npm run build` fails to minify
+https://www.youtube.com/watch?v=x7mwVn2z3Sk
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.youtube.com/watch?v=0h2b4ftbZcU
+
+https://create-react-app.dev/
+
+https://www.freecodecamp.org/news/build-portfolio-website-react/
+
+https://www.youtube.com/watch?v=bmpI252DmiI
+
+https://www.youtube.com/watch?v=4oCVDkb_EIs
+
+https://www.youtube.com/watch?v=2kg0z1qNrkw
+
+https://www.npmjs.com/package/react-icons
+
+https://fontawesome.com/v4/icon/bars
+
+https://tailwindcss.com/docs/grid-row
+
+https://app.getform.io/forms
+
+https://reactrouter.com/en/main/start/tutorial
+
+https://tailwindcolor.com/
+
+https://redd.gitbook.io/react-advanced-form/components/field/callbacks/on-blur
+
+https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/
+
+https://github.com/gitname/react-gh-pages
+
+Ask BCS
+
+20-React Activities
+
+## Contribution
+
+Megan Mathis
+
+## Tests
+
+n/a
+
+## Questions
+
+Any questions, please contact me at:
+
+- GitHub:
+  [MegMathis](http://github.com/MegMathis)
+- Email:
+  [mcdonough.megan25@gmail.com](mailto:mcdonough.megan25@gmail.com)
