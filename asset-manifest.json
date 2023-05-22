@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/megan_mathis_react_portfolio/static/css/main.349720bc.css",
-    "main.js": "/megan_mathis_react_portfolio/static/js/main.e51e9661.js",
+    "main.css": "/megan_mathis_react_portfolio/static/css/main.2562a16c.css",
+    "main.js": "/megan_mathis_react_portfolio/static/js/main.34284833.js",
     "static/media/pet_roasting_app.png": "/megan_mathis_react_portfolio/static/media/pet_roasting_app.fb51a4615df9dac27f92.png",
     "static/media/currency_converter.png": "/megan_mathis_react_portfolio/static/media/currency_converter.26ee90a8233fe531d590.png",
     "static/media/employee_tracker.png": "/megan_mathis_react_portfolio/static/media/employee_tracker.8fd0750034220c8c07a0.png",
@@ -9,20 +9,20 @@
     "static/media/resume.pdf": "/megan_mathis_react_portfolio/static/media/resume.4dcaee8279e22ab231ea.pdf",
     "static/media/weather_dashboard.png": "/megan_mathis_react_portfolio/static/media/weather_dashboard.7de4f88155e1b88a44f9.png",
     "static/media/tech_blog.png": "/megan_mathis_react_portfolio/static/media/tech_blog.0f594d830c41318fac4d.png",
+    "static/media/devdirect.png": "/megan_mathis_react_portfolio/static/media/devdirect.58a2f54ba66ee1974195.png",
     "static/media/react.png": "/megan_mathis_react_portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/megan_mathis_react_portfolio/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/note_taker.png": "/megan_mathis_react_portfolio/static/media/note_taker.213ba1589058d96b42cb.png",
     "static/media/mongo.png": "/megan_mathis_react_portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/Meg.jpeg": "/megan_mathis_react_portfolio/static/media/Meg.7d700a902ad1b7f5259e.jpeg",
     "static/media/html.png": "/megan_mathis_react_portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/megan_mathis_react_portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/megan_mathis_react_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/megan_mathis_react_portfolio/index.html",
-    "main.349720bc.css.map": "/megan_mathis_react_portfolio/static/css/main.349720bc.css.map",
-    "main.e51e9661.js.map": "/megan_mathis_react_portfolio/static/js/main.e51e9661.js.map"
+    "main.2562a16c.css.map": "/megan_mathis_react_portfolio/static/css/main.2562a16c.css.map",
+    "main.34284833.js.map": "/megan_mathis_react_portfolio/static/js/main.34284833.js.map"
   },
   "entrypoints": [
-    "static/css/main.349720bc.css",
-    "static/js/main.e51e9661.js"
+    "static/css/main.2562a16c.css",
+    "static/js/main.34284833.js"
   ]
 }
