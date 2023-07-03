@@ -7,7 +7,7 @@ import Mongo from "../assets/mongo.png";
 import ReactPic from "../assets/react.png";
 import Node from "../assets/node.png";
 import SQL6 from "../assets/sql6.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/resume_update.pdf";
 
 const Resume = () => {
   return (
